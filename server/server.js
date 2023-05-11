@@ -8,7 +8,8 @@ const { authMiddleware } = require('./utils/auth');
 const morgan = require('morgan');
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 const server = new ApolloServer({
   typeDefs,
