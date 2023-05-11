@@ -10,6 +10,10 @@
     "build": "cd client && npm run build",
     "postinstall": "(cd ./client && npm i) && (cd ./server && npm i)"
   },
+  "engines": {
+    "node": "16.10.0",
+    "npm": "8.13.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
